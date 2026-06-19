@@ -1,4 +1,6 @@
 **Linux Overall Security auditor**
+
+
 ##Overview##
 This has been specifically desgined for linux systems. This extracts core OS-level configurations using bash and then pipelined it with a python evaluation engine to flag vulnerabilities.
 
@@ -15,9 +17,13 @@ Prerequisities:
 To clone the whole repo pls use in bash:
 
 git clone [https://github.com/mohitsnuc/linux-audit.git](https://github.com/mohitsnuc/linux-audit.git)
+
 cd linux-audit
+
 chmod +x auditor.sh
+
 ./auditor.sh
+
 python3 analyser.py  
 
 
